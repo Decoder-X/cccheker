@@ -1,2 +1,1 @@
-web: python cccheker.py
-worker: python cccheker.py 
+web: gunicorn cccheker:app --log-file -
