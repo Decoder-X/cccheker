@@ -1,1 +1,1 @@
-web: gunicorn cccheker:app --log-file -
+web: python cccheker.py
